@@ -44,7 +44,7 @@ E nesse vídeo a seguir a atualização do Kubernetes, para atender sua evoluç�
 
 A empresa se chama [Sideros Labs](https://www.siderolabs.com/), o qual o Talos Linux é seu produto "Carro Chefe".
 
-Atualmente eles entraram no Sandbox da CNFC ([`Cloud Native Computing Foundation`](https://www.cncf.io/)) como Instalação de Kuberenetes Certificada:
+Atualmente eles entraram no Sandbox da CNFC ([`Cloud Native Computing Foundation`](https://www.cncf.io/)) como Instalação de Kubernetes Certificada:
 
 [https://landscape.cncf.io/card-mode?category=certified-kubernetes-installer&grouping=category&selected=sidero-talos-linux](https://landscape.cncf.io/card-mode?category=certified-kubernetes-installer&grouping=category&selected=sidero-talos-linux)
 
@@ -63,7 +63,7 @@ Veja o vídeo do canal [DevOps Toolkit](https://www.youtube.com/@DevOpsToolkit) 
 
 ### `Mais informações`
 
-O Talos Linux [ja está em sua versão 1.3.1](https://github.com/siderolabs/talos/releases) (28-12-2022), já homologado e testado na [versão do Kubernetes 1.26.0](https://github.com/siderolabs/kubelet/releases/tag/v1.26.0) e continua evoluindo constantemente, o qual também já está totalmente compatível com os recursos de observabilidade eBPF.  
-  
+O Talos Linux [ja está em sua versão 1.3.1](https://github.com/siderolabs/talos/releases) (28-12-2022), já homologado e testado na [versão do Kubernetes 1.26.0](https://github.com/siderolabs/kubelet/releases/tag/v1.26.0) e continua evoluindo constantemente, o qual também já está totalmente compatível com os recursos de observabilidade eBPF.
+
 Para maiores detalhes visite a Matrix de compatibilidade no link abaixo:  
 [https://www.talos.dev/v1.3/introduction/support-matrix/](https://www.talos.dev/v1.3/introduction/support-matrix/)

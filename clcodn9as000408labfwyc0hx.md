@@ -850,10 +850,6 @@ done
 
 Pode levar algum tempo até você obter a resposta.
 
-A saída deve ficar assim:
-
-xxx
-
 Você pode ver todas as políticas que serão aplicadas pelo Envoy (e os endpoints Cilium correspondentes).
 
 A criação de uma política de rede L7 também aumenta a visibilidade das comunicações correspondentes.

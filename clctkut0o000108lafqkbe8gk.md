@@ -57,7 +57,7 @@ No momento, a instrumentação é compatível com as linguagens Java, NodeJS e P
 * [`instrumentation.opentelemetry.io/inject-python`](http://instrumentation.opentelemetry.io/inject-python)`: "true"` — Python
     
 
-Depois que a anotação é aplicada, o operador injeta as bibliotecas de autoinstrumentação OpenTelemetry no container do aplicativo e configura a instrumentação para exportar os dados para um endpoint definido no Instrumentation CR.
+Depois que a annotation é aplicada, o operador injeta as bibliotecas de autoinstrumentação OpenTelemetry no container do aplicativo e configura a instrumentação para exportar os dados para um endpoint definido no Instrumentation CR.
 
 ### `Exemplo de Java com Spring Boot`
 
@@ -92,7 +92,7 @@ spec:
         image: ghcr.io/pavolloffay/spring-petclinic:latest
 ```
 
-e aplique a anotação de instrumentação:
+e aplique a annotation de instrumentação:
 
 ```bash
 kubectl patch deployment.apps/spring-petclinic -p '{"spec": {"template": {"metadata": {"annotations": {"instrumentation.opentelemetry.io/inject-java": "true"}}}}}'

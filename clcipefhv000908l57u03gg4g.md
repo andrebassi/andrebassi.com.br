@@ -2,7 +2,7 @@
 
 **Talos Linux** é uma abordagem interessante para um sistema operacional Linux baseado em API.
 
-Em vez de usar SSH para conectar e executar comandos do sistema operacional herdado, o Talos Linux não fornece nenhum acesso SSH.
+Em vez de usar SSH para conectar e executar comandos do sistema operacional, o Talos Linux não fornece nenhum acesso SSH.
 
 Toda a configuração é feita por meio de um endpoint [gRPC-API](https://grpc.io/).
 
